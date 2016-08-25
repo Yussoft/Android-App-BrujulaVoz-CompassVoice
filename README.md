@@ -27,6 +27,3 @@ para dar feedback al usuario de que está colocado correctamente.
 /-------------------------------------------------------------------------------------------------------------------------------------/
 
 
-Simple tutorial for using the camera/Sencillo tutorial para utilizar la camara en android:
-- https://justyusblog.wordpress.com/2016/08/21/tomar-fotografia-y-mostrarla-android/ 
-- (En el futuro se añadirá un tutorial para usar la brújula.) 
