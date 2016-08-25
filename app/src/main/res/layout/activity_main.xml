@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_gradient"
+    tools:context="com.npi.yus.brujulavoz.MainActivity">
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MicButton"
+        android:onClick="MicButton"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:layout_above="@+id/clickButtonText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonText"
+        android:id="@+id/clickButtonText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/SpeechText"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/explanationText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="compassActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NextActivitySpeech"
+        android:id="@+id/NextActivityButton"
+        android:layout_above="@+id/MicButton"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/explanationText"
+        android:id="@+id/explanationText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

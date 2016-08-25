@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BrujulaVoz</string>
+    <string name="ButtonText">Presiona el botón</string>
+    <string name="PressedButton">Botón Presionado</string>
+    <string name="NextActivitySpeech">Abrir brújula</string>
+    <string name="PreSpeech">Punto Cardinal y porcentaje de error.</string>
+    <string name="speech_prompt">Di un punto cardinal junto a un porcentaje de error: Norte 10&#8230;</string>
+    <string name="speech_not_supported">Lo siento, parece que tu dispositivo no soporta el uso de voz.</string>
+    <string name="title_activity_compass">CompassActivity</string>
+    <string name="error_dir">Error al recibir una dirección.</string>
+    <string name="compassExp">Busque el objetivo. Cuando lo haya alcanzado sonará una campanilla.
+    Recuerde que los grados son Norte-0, Este-90, Oeste-260 y Sur-180.</string>
+    <string name="explanationText">Bienvenido a BrújulaVoz, presiona el micrófono y di una
+    dirección y un margen de error. Por ejemplo Sur 5 o Norte 10.</string>
+    <string name="objetivoT">Objetivo:  </string>
+    
+</resources>
